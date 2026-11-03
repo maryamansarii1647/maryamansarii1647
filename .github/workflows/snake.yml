@@ -1,0 +1,39 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at 00:00 UTC
+  workflow_dispatch:       # allow manual runs
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVG (brand palette)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: maryamansarii1647
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#E5B5C7&color_dots=#27101C,#451126,#701A3D,#C77B9B,#E5B5C7
+
+      - name: Move snake into assets/
+        run: |
+          mkdir -p assets
+          cp dist/github-contribution-grid-snake.svg assets/contribution-snake.svg
+
+      - name: Commit refreshed snake
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: "chore: refresh contribution snake"
+          add: "assets/contribution-snake.svg"
