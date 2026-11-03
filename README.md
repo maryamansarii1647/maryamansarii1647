@@ -49,7 +49,7 @@ My flagship build so far is **DyslexiaHub**, a learning website designed for dys
 <img src="assets/project-more.svg" width="100%" alt="More on GitHub — four public repos, all hand-built. Project-PWD: responsive iteration of the activities portal, mobile-first CSS, June 2026. GitHub Pages: Picnic-Games is live at maryamansarii1647.github.io/Picnic-Games — my first deployed site.">
 
 <p align="center">
-  <sub><b>More on GitHub —</b></sub>
+  <sub><b style="font-size:15px;">More on GitHub —</b></sub>
   <a href="https://github.com/maryamansarii1647/Project-PWD"><img src="https://img.shields.io/badge/Project__PWD-responsive__pass-27101C?style=for-the-badge&labelColor=190B12&logoColor=E5B5C7&logo=github" alt="Project-PWD — responsive iteration of the activities portal"></a>
   <a href="https://maryamansarii1647.github.io/Picnic-Games/"><img src="https://img.shields.io/badge/GitHub__Pages-Picnic__Games__is__LIVE-27101C?style=for-the-badge&labelColor=190B12&logoColor=E5B5C7&logo=googlechrome" alt="Picnic-Games live on GitHub Pages"></a>
 </p>
@@ -58,11 +58,11 @@ My flagship build so far is **DyslexiaHub**, a learning website designed for dys
 <img src="assets/tech-constellation.svg" width="100%" alt="Toolkit. Frontend: React, Vue.js, Tailwind CSS, HTML5 and CSS3. JavaScript: ES6 and DOM, fetch and JSON, responsive design. Backend: Node.js, server-side JavaScript, Git and GitHub. Currently learning: PHP and MySQL, backend fundamentals, growing full-stack.">
 
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log — a habit, one commit at a time.">
-<!-- The snake appears after the GitHub Action runs once. Enable Actions in this repo — see INSTALL.md -->
+<!-- The snake appears after the GitHub Action runs once. -->
 <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating my real public GitHub contributions over the past year. Generated automatically by a GitHub Action.">
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=maryamansarii1647&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=190B12&title_color=E5B5C7&text_color=B6A3AC&icon_color=C77B9B&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for maryamansarii1647: stars, commits, pull requests and issues">
-</p>
+</p> -->
 
 <img src="assets/title-goals.svg" width="100%" alt="06 What's next — where this is going, the roadmap ahead.">
 <img src="assets/roadmap.svg" width="100%" alt="Roadmap. Now: PHP and MySQL — server-side basics, databases, queries, wiring them to existing front-ends. Next: full-stack builds — React and Vue front-ends on Node.js backends, complete products end to end. Later: real users — a deployed product in production.">
