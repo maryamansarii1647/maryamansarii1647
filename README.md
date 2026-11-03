@@ -49,7 +49,7 @@ My flagship build so far is **DyslexiaHub**, a learning website designed for dys
 <img src="assets/project-more.svg" width="100%" alt="More on GitHub — four public repos, all hand-built. Project-PWD: responsive iteration of the activities portal, mobile-first CSS, June 2026. GitHub Pages: Picnic-Games is live at maryamansarii1647.github.io/Picnic-Games — my first deployed site.">
 
 <p align="center">
-  <sub><b style="font-size:15px;">More on GitHub —</b></sub>
+  <h6><b>More on GitHub —</b></h6>
   <a href="https://github.com/maryamansarii1647/Project-PWD"><img src="https://img.shields.io/badge/Project__PWD-responsive__pass-27101C?style=for-the-badge&labelColor=190B12&logoColor=E5B5C7&logo=github" alt="Project-PWD — responsive iteration of the activities portal"></a>
   <a href="https://maryamansarii1647.github.io/Picnic-Games/"><img src="https://img.shields.io/badge/GitHub__Pages-Picnic__Games__is__LIVE-27101C?style=for-the-badge&labelColor=190B12&logoColor=E5B5C7&logo=googlechrome" alt="Picnic-Games live on GitHub Pages"></a>
 </p>
